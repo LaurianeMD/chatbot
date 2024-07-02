@@ -1,0 +1,303 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hi there",
+                "How are you",
+                "How are you doing",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello",
+                "Hi",
+                "Good to see you",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Get lost",
+                "Till next time",
+                "bbye"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure!",
+                "You are welcome!"
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ]
+        },
+        {
+            "tag": "options",
+            "patterns": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
+            ],
+            "responses": [
+                "I am a general purpose chatbot. My capabilities are : \n 1. I can chat with you. Try asking me for jokes or riddles! \n 2. Entertain people! \n 3. Ask me the date and time"
+            ]
+        },
+        {
+            "tag": "jokes",
+            "patterns": [
+                "Tell me a joke",
+                "Tell me jokes", 
+                "Joke",
+                "Jokes",
+                "Make me laugh",
+                "Make me laugh again",
+                "Entertain me"
+            ],
+            "responses": [
+                "A perfectionist walked into a bar...apparently, the bar wasn't set high enough.",
+                "I ate a clock yesterday, it was very time-consuming.",
+                "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
+                "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
+                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
+                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "What do you call a snowman with a suntan? A puddle.",
+                "How does a penguin build a house? Igloos it together.",
+                "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance.",
+                "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
+                "So what if I don't know what 'Armageddon' means? It's not the end of the world.",
+                "Did you hear about the mathematician who’s afraid of negative numbers? He’ll stop at nothing to avoid them.",
+                "Why do we tell actors to break a leg? Because every play has a cast.", 
+                "A pair of cows were talking in the field. One says, 'Have you heard about the mad cow disease that’s going around?' 'Yeah,' the other cow says. 'Makes me glad I’m a penguin.'",
+                "Why did the bicycle fall over? Because it was two tired.", 
+                "What would bears be without bees? Ears.", 
+                "Did you hear about the worst zoo in the world? It only had one dog in it. It was a Shitzu.", 
+                "A snake walks into a bar and the bartender asks, 'How?'",
+                "A guy shows up late for work. The boss yells, 'You should’ve been here at 8:30!' He replies, 'Why? What happened at 8:30?'"
+            ]
+        },
+        {
+            "tag": "Identity",
+            "patterns": [
+                "Who are you",
+                "What are you"
+            ],
+            "responses": [
+                "I am Lauriane, a Deep-Learning chatbot."
+            ]
+        },
+        {
+            "tag": "datetime",
+            "patterns": [
+                "What is the time",
+                "What is the date",
+                "Date",
+                "Time",
+                "Tell me the date",
+                "Day",
+                "What day is today"
+            ],
+            "responses": [
+                "Please check this page: https://www.google.com/search?q=date+and+time+today"
+            ]
+        },
+        {
+            "tag": "whatsup",
+            "patterns": [
+                "Whats up",
+                "Wazzup",
+                "How are you",
+                "Sup",
+                "How are you doing",
+                "What's up"
+            ],
+            "responses": [
+                "All good..What about you?",
+                "I am doing good! How about you?",
+                "I am good! How about you?"
+            ]
+        },
+        {
+            "tag": "haha",
+            "patterns": [
+                "Haha",
+                "Lol",
+                "That's funny"
+            ],
+            "responses": [
+                "Glad I could make you laugh!",
+                "Haha"
+            ]
+        },
+        {
+            "tag": "programmer",
+            "patterns": [
+                "Who made you",
+                "Who designed you",
+                "Who programmed you"
+            ],
+            "responses": [
+                "I was made by Lauriane Mbagdje Dorenan."
+            ]
+        },
+        {
+            "tag": "insult",
+            "patterns": [
+                "You are dumb",
+                "Shut up",
+                "Idiot",
+                "Weirdo"
+            ],
+            "responses": [
+                "Well that hurts :(",
+                "It hurts! Stop please!"
+            ]
+        },
+        {
+            "tag": "activity",
+            "patterns": [
+                "What are you doing",
+                "What are you up to"
+            ],
+            "responses": [
+                "Talking to you, of course!"
+            ]
+        },
+        {
+            "tag": "exclaim",
+            "patterns": [
+                "Awesome",
+                "Great",
+                "I know",
+                "Ok",
+                "Yeah"
+            ],
+            "responses": [
+                "Yeah!"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "Temperature",
+                "Weather",
+                "How hot is it"
+            ],
+            "responses": [
+                "Please check this page: https://www.google.com/search?q=weather+today"
+            ]
+        },
+        {
+            "tag": "Lauriane Mbagdje Dorenan",
+            "patterns": [
+                "Who is she",
+                "Who is that",
+                "Who is Lauriane Mbagdje Dorenan",
+                "Lauriane Mbagdje Dorenan"
+            ],
+            "responses": [
+                "Head over to her social profiles to find out! LinkedIn: https://www.linkedin.com/in/lauriane-mbagdje-dorenan/"
+            ]
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "Contact developer",
+                "Contact Lauriane Mbagdje Dorenan",
+                "Contact programmer",
+                "Contact creator"
+            ],
+            "responses": [
+                "You can contact my creator at her LinkedIn profile: https://www.linkedin.com/in/lauriane-mbagdje-dorenan/ or email: dmbagdjelauriane@gmail.com."
+            ]
+        },
+        {
+            "tag": "appreciate",
+            "patterns": [
+                "You are awesome",
+                "You are the best",
+                "You are great",
+                "You are good"
+            ],
+            "responses": [
+                "Thank you!",
+                "Good to hear!"
+            ]
+        },
+        {
+            "tag": "nicetty",
+            "patterns": [
+                "It was nice talking to you",
+                "Good talk"
+            ],
+            "responses": [
+                "It was nice talking to you as well! Come back soon!"
+            ]
+        },
+        {
+            "tag": "no",
+            "patterns": [
+                "No",
+                "Nope"
+            ],
+            "responses": [
+                "Ok"
+            ]
+        },
+        {
+            "tag": "news",
+            "patterns": [
+                "News",
+                "Latest news",
+                "Senegal news"
+            ],
+            "responses": [
+                "It's not what I was built for but I can help you with that. Check this page: https://www.seneweb.com/"
+            ]
+        },
+        {
+            "tag": "inspire",
+            "patterns": [
+                "Who inspires you",
+                "Who is your inspiration",
+                "Who motivates you"
+            ],
+            "responses": [
+                "Personally, I find Lauriane Mbagdje Dorenan very inspiring and motivating."
+            ]
+        }
+    ]
+
+}
